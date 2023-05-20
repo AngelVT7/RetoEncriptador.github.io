@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylos.css">
+        <script src="Scrip.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <div class="cabecera">
+                <div class="caja">
+                    <img id="alura" src="Rec/alura-logo.1647533644.png" alt="">
+                </div>
+                <div class="caja">
+                    <h1>Encriptador & Desencritador de texto</h1>
+                </div>
+                <div class="caja">
+                    <img id="oracle" src="Rec/Oracle-ONE.png" alt="">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="contenedor-principal">
+                <div class="bloque">
+                    <p id="instrucciones">
+                        Ingresa el texto en minusculas y sin acentos.
+                    </p>
+                    <textarea name="mensaje-box" id="texto" cols="60" rows="25" placeholder="Ingresa el texto"></textarea>
+                </div>
+
+                <div class="bloque">
+                    <div class="tarjeta">
+                        <img id="muneco" src="Rec/muñeco.png" alt="imagen">
+                        <h2 id="txto-tar">
+                            Ningun mensaje fue encontrado
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="botones">
+                    <button onclick="encriptar()">Encriptar</button>
+                    <button onclick="desencriptar()">Desencriptar</button>
+                    <button onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+
+            <footer>
+
+            </footer>
+        </main>
+    </body>
+</html>

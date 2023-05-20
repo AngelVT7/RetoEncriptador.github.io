@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    background-image: url(Rec/BG_ZOOM_ONE_ESP_\(3\)[1].png);
+    margin: 0 12%;
+}
+
+.cabecera{
+    width: 1300px;
+    height: 100px;
+}
+.caja{
+    width: 31.9%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+#alura{
+    width: 90px;
+    margin: 4% 35%;
+}
+#oracle{
+    width: 120px;
+    margin: 4% 35%;
+}
+.caja h1{
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+}
+
+.contenedor-principal{
+    width: 1300px;
+    margin-top: 1.5em;
+}
+.bloque{
+    display:inline-block;
+    vertical-align: top;
+    width: 48%;
+    height: 500px;
+
+}
+.bloque textarea{
+    margin: 7% 12%;
+    border-radius: 15px;
+    padding: 1em;
+    font-size: 20px;
+    width: 500px;
+    height: 350px;
+}
+textarea{
+
+}
+.bloque p{
+    margin: 2% 12%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+.tarjeta{
+    width: 400px;
+    border-radius: 15px;
+    height: 450px;
+    margin: 4% 17%;
+}
+.tarjeta img{
+    place-items: center;
+    display: grid;
+}
+#txto-tar{
+    margin: 0 12%;
+    text-align: center;
+    color: #fff;
+}
+.botones{
+    width: 1300px;
+    height: 100px;
+
+}
+.botones button{
+    width: 120px;
+    height: 50px;
+    margin: 2% 4%;
+    border-radius: 5px;
+    background-color: rgb(14, 53, 54);
+    color: #fff;
+    
+}
